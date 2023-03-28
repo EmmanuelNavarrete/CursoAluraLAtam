@@ -14,10 +14,10 @@ public class Conversiones {
         //float soporta 2^32 valores, por lo que si el valor es mayor a este, se perderá información
         //double soporta 2^64 valores, por lo que si el valor es mayor a este, se perderá información
 
-        long prueba = 1234567890123456789L; //L para indicar que es un long
-        short numeroPequeno = 12345; //va en el rango de 2^16
-        byte numeroAunMasPequeno = 127; //va en el rango de 2^8
-        float numeroConDecimales = 123.45f; //f para indicar que es un float
+       // long prueba = 1234567890123456789L; //L para indicar que es un long
+       // short numeroPequeno = 12345; //va en el rango de 2^16
+       // byte numeroAunMasPequeno = 127; //va en el rango de 2^8
+       // float numeroConDecimales = 123.45f; //f para indicar que es un float
 
 
         double resultado = variable1 + variableEntero;
@@ -25,7 +25,7 @@ public class Conversiones {
 
         int resultado2 = (int) (variable1 + variableEntero);
         System.out.println("El resultado de la suma es "+ resultado2);
-        
+
 
     }
 }

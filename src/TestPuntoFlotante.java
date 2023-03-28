@@ -6,7 +6,7 @@ public class TestPuntoFlotante {
         // Recuerda que no podemos colocar un valor de tipo flotante dentro de una variable de tipo int, prueba:
         //int valor =12.5;
         //int valor2 = 0.0;
-        double test = 125.50;
+       // double test = 125.50;
         //int valor3 = test;
         int division = 5/2;
         System.out.println("El resultado de la division es "+ division);
